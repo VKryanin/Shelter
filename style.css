@@ -1,0 +1,44 @@
+@import url(./blocks/root.css);
+
+@import url(./blocks/notOnly/notOnly.css);
+
+@import url(./blocks/header/header.css);
+@import url(./blocks/header/Title/headerTitle.css);
+@import url(./blocks/header/Subtitle/headerSubtitle.css);
+@import url(./blocks/header/Nav/headerNav.css);
+@import url(./blocks/header/List/headerList.css);
+@import url(./blocks/header/Link/headerLink.css);
+
+@import url(./blocks/notOnly/Content/notOnlyContent.css);
+@import url(./blocks/notOnly/Title/notOnlyTitle.css);
+@import url(./blocks/notOnly/Description/notOnlyDescription.css);
+@import url(./blocks/notOnly/Button/notOnlyButton.css);
+@import url(./blocks/notOnly/Image/notOnlyImage.css);
+
+@import url(./blocks/about/about.css);
+@import url(./blocks/about/Content/aboutContent.css);
+@import url(./blocks/about/Image/aboutImage.css);
+@import url(./blocks/about/Wrapper/aboutWrapper.css);
+@import url(./blocks/about/Title/aboutTitle.css);
+@import url(./blocks/about/Description/aboutDescription.css);
+
+@import url(./blocks/ourFriends/ourFriendsContent.css);
+@import url(./blocks/ourFriends/Title/ourFriendsTitle.css);
+@import url(./blocks/ourFriends/Slider/ourFriendsSlider.css);
+@import url(./blocks/ourFriends/Left/ourFriendsLeft.css);
+@import url(./blocks/ourFriends/Left/ourFriendsLeftImage.css);
+@import url(./blocks/ourFriends/Cards/ourFriendsCards.css);
+@import url(./blocks/ourFriends/Item/ourFriendsItem.css);
+@import url(./blocks/ourFriends/Image/ourFriendsImage.css);
+@import url(./blocks/ourFriends/Description/ourFriendsDescription.css);
+@import url(./blocks/ourFriends/Name/ourFriendsName.css);
+@import url(./blocks/ourFriends/LearnMore/ourFriendsLearnMore.css);
+@import url(./blocks/ourFriends/Right/ourFriendsRightWrapper.css);
+@import url(./blocks/ourFriends/Right/ourFriendsRight.css);
+@import url(./blocks/ourFriends/Right/ourFriendsRightImage.css);
+@import url(./blocks/ourFriends/Button/ourFriendsButton.css);
+
+@import url(./blocks/help/help.css);
+@import url(./blocks/help/Content/helpContent.css);
+@import url(./blocks/help/Title/helpTitle.css);
+@import url(./blocks/help/Items/helpItems.css);

@@ -1,0 +1,11 @@
+.ourFriendsRight {
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    border: 2px solid #F1CDB3;
+    position: absolute;
+    transform: translate(0%, -50%);
+    right: 0%;
+    top: 50%;
+    cursor: pointer;
+}

@@ -1,0 +1,5 @@
+.ourFriendsCards {
+    width: 2700px;
+    display: flex;
+    box-sizing: border-box;
+}

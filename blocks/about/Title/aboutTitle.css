@@ -1,0 +1,10 @@
+.aboutTitle {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 35px;
+    line-height: 45px;
+    font-weight: 400;
+    color: #545454;
+    letter-spacing: 0.06em;
+    width: 370px;
+    margin: 0;
+}

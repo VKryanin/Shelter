@@ -1,0 +1,9 @@
+.ourFriendsRightWrapper {
+    position: absolute;
+    transform: translate(0%, -50%);
+    right: 0%;
+    top: 50%;
+    height: 100%;
+    width: 56px;
+    background: #F6F6F6;
+}

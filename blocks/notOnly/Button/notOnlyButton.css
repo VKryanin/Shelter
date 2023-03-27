@@ -1,0 +1,11 @@
+.notOnlyButton {
+    background-color: #f1cdb3;
+    border-radius: 100px;
+    width: 207px;
+    height: 52px;
+    border: none;
+    color: #292929;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 17px;
+    cursor: pointer;
+}

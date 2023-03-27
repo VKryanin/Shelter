@@ -1,0 +1,8 @@
+.ourFriendsSlider {
+    width: 1200px;
+    padding: 0 105px;
+    margin-top: 60px;
+    position: relative;
+    overflow: hidden;
+    box-sizing: border-box;
+}

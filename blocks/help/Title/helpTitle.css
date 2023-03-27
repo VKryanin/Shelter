@@ -1,0 +1,12 @@
+.helpTitle {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 45px;
+    letter-spacing: 0.06em;
+    color: #545454;
+    width: 320px;
+    margin: 0 auto;
+    text-align: center;
+}

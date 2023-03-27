@@ -1,0 +1,10 @@
+.ourFriendsItem {
+    width: 270px;
+    height: 435px;
+    background: #FAFAFA;
+    border-radius: 9px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    margin-right: 90px;
+}
