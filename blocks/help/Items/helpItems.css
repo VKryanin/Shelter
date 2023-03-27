@@ -5,7 +5,8 @@
     margin: 0 auto;
     box-sizing: border-box;
     display: grid;
-    grid-template-columns: repeat(5, minmax(auto, auto)) ;
+    grid-template-columns: repeat(auto-fill, minmax(60px, 165px));
     grid-column-gap: 120px;
+    grid-template-rows: 120px;
     border: solid 1px red;
 }
