@@ -3,10 +3,9 @@
     list-style: none;
     padding: 0;
     margin: 0 auto;
-    box-sizing: border-box;
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(60px, 165px));
-    grid-column-gap: 120px;
-    grid-template-rows: 120px;
-    border: solid 1px red;
+    /* box-sizing: border-box; */
+    display: flex;
+    /* justify-content: space-between; */
+    flex-wrap: wrap;
+    /* border: solid 1px red; */
 }
