@@ -6,7 +6,7 @@
     align-items: center;
     text-decoration: none;
     margin-top: 40px;
-    transition: all .7s ease;
+    transition: all .5s ease;
 }
 
 .email {
@@ -22,5 +22,10 @@
 }
 
 .footerSubtitle:hover {
-    opacity: .7;
+    opacity: .5;
+}
+
+.footerSubtitle:hover .footerInfo{
+    color: #ee6605;
+    
 }

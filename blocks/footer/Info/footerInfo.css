@@ -3,4 +3,5 @@
     line-height: 23px;
     color: #f1cdb3;
     text-decoration: none;
+    transition: all .5s ease;
 }
