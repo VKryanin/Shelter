@@ -3,4 +3,9 @@
     list-style: none;
     padding: 0;
     margin: 0 auto;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: repeat(5, minmax(auto, auto)) ;
+    grid-column-gap: 120px;
+    border: solid 1px red;
 }

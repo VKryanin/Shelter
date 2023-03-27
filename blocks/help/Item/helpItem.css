@@ -1,0 +1,10 @@
+.helpItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+/* .helpItem:nth-child(6n) {
+    margin-left: 84px;
+} */

@@ -42,3 +42,6 @@
 @import url(./blocks/help/Content/helpContent.css);
 @import url(./blocks/help/Title/helpTitle.css);
 @import url(./blocks/help/Items/helpItems.css);
+@import url(./blocks/help/Item/helpItem.css);
+@import url(./blocks/help/Icon/helpIcon.css);
+@import url(./blocks/help/Text/helpText.css);
