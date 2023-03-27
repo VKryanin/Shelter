@@ -1,0 +1,38 @@
+.paginationArrow {
+    margin: 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+}
+
+.pagination {
+    transition: all .5s ease;
+}
+
+.petsDNext:hover, .petsNext:hover, .petsPrev:hover, .petsDPrev:hover {
+    transform: scale(1.2);
+}
+
+.dissable {
+    border: 2px solid #cdcdcd;
+    cursor: default;
+}
+
+.dissable p{
+    color: #CDCDCD;
+}
+
+.dissable:hover {
+    transform: scale(1);
+}
+
+.active, .petsPage {
+    border: 2px solid #F1CDB3
+}
+
+.active p {
+    color: #292929;
+}
+
+

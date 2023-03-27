@@ -3,6 +3,9 @@
     flex-direction: column;
     align-items: center;
     margin-right: 120px;
+    width: 100px;
+    margin-top: 55px;
+    cursor: pointer;
 }
 
 .helpItem:nth-child(5n) {
@@ -11,4 +14,8 @@
 
 .helpItem:nth-child(6n) {
     margin-left: 84px;
+}
+
+.helpItem:hover img {
+    transform: scale(1.2);
 }

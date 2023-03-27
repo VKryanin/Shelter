@@ -1,3 +1,4 @@
 .helpIcon {
     object-fit: cover;
+    transition: all .7s ease;
 }

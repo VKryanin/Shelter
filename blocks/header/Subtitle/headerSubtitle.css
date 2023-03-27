@@ -6,3 +6,12 @@
     line-height: 15px;
     color: #fff;
 }
+
+.headerSubtitleWhite {
+    margin: 10px 0 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    color: #292929;
+}

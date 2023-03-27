@@ -1,0 +1,13 @@
+.headerItem {
+    border-bottom:  1px solid radial-gradient(100% 215.42% at 0% 0%, #5B483A 0%, #262425 100%);
+    transition: border-bottom .7s ease;
+}
+
+.headerItemWhite  {
+    border-bottom:  1px solid #fff;
+    transition: border-bottom .7s ease;
+}
+
+.headerItem:hover, .headerItemWhite:hover  {
+    border-bottom:  1px solid #F1CDB3;
+}

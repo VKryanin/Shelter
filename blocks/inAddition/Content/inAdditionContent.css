@@ -1,0 +1,5 @@
+.inAdditionContent {
+    width: 915px;
+    display: flex;
+    justify-content: space-between;
+}

@@ -1,0 +1,18 @@
+.inAdditionLink {
+    text-decoration: none;
+    color: #545454;
+    width: 349px;
+    height: 43px;
+    background: #F1CDB3;
+    border-radius: 9px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 15px;
+    box-sizing: border-box;
+    transition: all .7s ease;
+}
+
+.inAdditionLink:hover {
+    background-color: #fff;
+}

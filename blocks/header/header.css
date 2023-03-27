@@ -1,5 +1,16 @@
-.header {
+.header, .headerWhite {
     width: 1200px;
+    padding-top: 30px;
+    position: absolute;
     display: flex;
     justify-content: space-between;
+}
+
+.headerWhite {
+    position: relative;
+    align-items: center;
+    box-sizing: border-box;
+    width: 1280px;
+    padding: 30px 40px;
+    background-color: #fff;
 }

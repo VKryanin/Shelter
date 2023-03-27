@@ -7,6 +7,7 @@
 @import url(./blocks/header/Subtitle/headerSubtitle.css);
 @import url(./blocks/header/Nav/headerNav.css);
 @import url(./blocks/header/List/headerList.css);
+@import url(./blocks/header/Item/headerItem.css);
 @import url(./blocks/header/Link/headerLink.css);
 
 @import url(./blocks/notOnly/Content/notOnlyContent.css);
@@ -45,3 +46,30 @@
 @import url(./blocks/help/Item/helpItem.css);
 @import url(./blocks/help/Icon/helpIcon.css);
 @import url(./blocks/help/Text/helpText.css);
+
+@import url(./blocks/inAddition/inAddition.css);
+@import url(./blocks/inAddition/Content/inAdditionContent.css);
+@import url(./blocks/inAddition/Image/inAdditionImage.css);
+@import url(./blocks/inAddition/Wrapper/inAdditionWrapper.css);
+@import url(./blocks/inAddition/Title/inAdditionTitle.css);
+@import url(./blocks/inAddition/Subtitle/inAdditionSubtitle.css);
+@import url(./blocks/inAddition/Link/inAdditionLink.css);
+@import url(./blocks/inAddition/Span/inAdditionSpan.css);
+@import url(./blocks/inAddition/Information/inAdditionInformation.css);
+
+@import url(./blocks/footer/footer.css);
+@import url(./blocks/footer/Content/footerContent.css);
+@import url(./blocks/footer/Title/footerTitle.css);
+@import url(./blocks/footer/Subtitle/footerSubtitle.css);
+@import url(./blocks/footer/Info/footerInfo.css);
+@import url(./blocks/footer/Icon/footerIcon.css);
+@import url(./blocks/footer/Logo/footerLogo.css);
+
+@import url(./blocks/pets/pets.css);
+@import url(./blocks/pets/Content/petsContent.css);
+@import url(./blocks/pets/Title/petsTitle.css);
+@import url(./blocks/pets/Container/petsContainer.css);
+@import url(./blocks/pets/Item/petsItem.css);
+@import url(./blocks/pets/Pagination/petsPagination.css);
+@import url(./blocks/pets/Count/paginationCount.css);
+@import url(./blocks/pets/Arrow/paginationArrow.css);

@@ -1,0 +1,12 @@
+.paginationCount {
+    margin: 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #292929;
+}
+
+.petsPage {
+background: #F1CDB3;
+}

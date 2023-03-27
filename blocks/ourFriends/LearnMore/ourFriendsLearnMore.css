@@ -10,4 +10,10 @@
     font-weight: 400;
     line-height: 22px;
     letter-spacing: 0.06em;
+    cursor: pointer;
+    transition: all .7s ease;
+}
+
+.ourFriendsLearnMore:hover {
+    background-color: #f1cdb3;
 }

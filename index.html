@@ -6,11 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shelter</title>
+    <link rel="icon" href="./image/puppy.svg" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body class="root">
-    <section class="notOnly">
+    <section id="main" class="notOnly">
         <header class="header">
             <div class="headerLogo">
                 <h1 class="headerTitle">Cozy House</h1>
@@ -19,16 +20,16 @@
             <nav class="headerNav">
                 <ul class="headerList">
                     <li class="headerItem">
-                        <a class="headerLink" href="#">About the shelter</a>
+                        <a class="headerLink" href="#main">About the shelter</a>
                     </li>
                     <li class="headerItem">
-                        <a class="headerLink" href="#">Our pets</a>
+                        <a class="headerLink" href="./pages/pets.html">Our pets</a>
                     </li>
                     <li class="headerItem">
-                        <a class="headerLink" href="#">Help the shelter</a>
+                        <a class="headerLink" href="#help">Help the shelter</a>
                     </li>
                     <li class="headerItem">
-                        <a class="headerLink" href="#">Contacts</a>
+                        <a class="headerLink" href="#footer">Contacts</a>
                     </li>
                 </ul>
             </nav>
@@ -41,7 +42,7 @@
                 He or she will love you more than anybody else in the world,
                 you will see!
             </p>
-            <button class="notOnlyButton">Make a friend</button>
+            <button class="notOnlyButton"> <a href="#OurFriends">Make a friend</a></button>
         </div>
         <img class="notOnlyImage" src="./image/puppy.svg" alt="">
     </section>
@@ -67,7 +68,7 @@
             </div>
         </div>
     </section>
-    <section class="ourFriends">
+    <section id="OurFriends" class="ourFriends">
         <div class="ourFriendsContent">
             <h3 class="ourFriendsTitle">
                 Our friends who are&nbsp;looking for a house
@@ -76,60 +77,74 @@
                 <div class="ourFriendsLeft">
                     <img class="ourFriendsLeftImage" src="./image/Left.svg" alt="">
                 </div>
-                <div class="ourFriendsCards">
-                    <div class="ourFriendsItem">
+                <ul class="ourFriendsCards">
+                    <li class="ourFriendsItem">
                         <img class="ourFriendsImage" src="./image/pets-katrine.jpg" alt="Katrine">
                         <div class="ourFriendsDescription">
                             <p class="ourFriendsName">Katrine</p>
                             <button class="ourFriendsLearnMore">Learn more</button>
                         </div>
-                    </div>
-                    <div class="ourFriendsItem">
+                    </li>
+                    <li class="ourFriendsItem">
                         <img class="ourFriendsImage" src="./image/pets-jennifer.jpg" alt="Jennifer">
                         <div class="ourFriendsDescription">
                             <p class="ourFriendsName">Jennifer</p>
                             <button class="ourFriendsLearnMore">Learn more</button>
                         </div>
-                    </div>
-                    <div class="ourFriendsItem">
+                    </li>
+                    <li class="ourFriendsItem">
                         <img class="ourFriendsImage" src="./image/pets-woody.jpg" alt="Woody">
                         <div class="ourFriendsDescription">
                             <p class="ourFriendsName">Woody</p>
                             <button class="ourFriendsLearnMore">Learn more</button>
                         </div>
-                    </div>
-                    <div class="ourFriendsItem">
-                        <img class="ourFriendsImage" src="./image/pets-woody.jpg" alt="Woody">
+                    </li>
+                    <li class="ourFriendsItem">
+                        <img class="ourFriendsImage" src="./image/Sophia.jpg" alt="Sophia">
                         <div class="ourFriendsDescription">
-                            <p class="ourFriendsName">Woody</p>
+                            <p class="ourFriendsName">Sophia</p>
                             <button class="ourFriendsLearnMore">Learn more</button>
                         </div>
-                    </div>
-                    <div class="ourFriendsItem">
-                        <img class="ourFriendsImage" src="./image/pets-woody.jpg" alt="Woody">
+                    </li>
+                    <li class="ourFriendsItem">
+                        <img class="ourFriendsImage" src="./image/pets-timmy.jpg" alt="Timmy">
                         <div class="ourFriendsDescription">
-                            <p class="ourFriendsName">Woody</p>
+                            <p class="ourFriendsName">Timmy</p>
                             <button class="ourFriendsLearnMore">Learn more</button>
                         </div>
-                    </div>
-                    <div class="ourFriendsItem">
-                        <img class="ourFriendsImage" src="./image/pets-woody.jpg" alt="Woody">
+                    </li>
+                    <li class="ourFriendsItem">
+                        <img class="ourFriendsImage" src="./image/pets-charly.jpg" alt="Charly">
                         <div class="ourFriendsDescription">
-                            <p class="ourFriendsName">Woody</p>
+                            <p class="ourFriendsName">Charly</p>
                             <button class="ourFriendsLearnMore">Learn more</button>
                         </div>
-                    </div>
-                </div>
+                    </li>
+                    <li class="ourFriendsItem">
+                        <img class="ourFriendsImage" src="./image/pets-scarlet.jpg" alt="Scarlett">
+                        <div class="ourFriendsDescription">
+                            <p class="ourFriendsName">Scarlett</p>
+                            <button class="ourFriendsLearnMore">Learn more</button>
+                        </div>
+                    </li>
+                    <li class="ourFriendsItem">
+                        <img class="ourFriendsImage" src="./image/pets-Freddie.jpg" alt="Freddie">
+                        <div class="ourFriendsDescription">
+                            <p class="ourFriendsName">Freddie</p>
+                            <button class="ourFriendsLearnMore">Learn more</button>
+                        </div>
+                    </li>
+                </ul>
                 <div class="ourFriendsRightWrapper">
                     <div class="ourFriendsRight">
                         <img class="ourFriendsRightImage" src="./image/Right.svg" alt="">
                     </div>
                 </div>
             </div>
-            <button class="ourFriendsButton">Get to know the rest</button>
+            <button  class="ourFriendsButton"> <a href="./pages/pets.html">Get to know the rest</a></button>
         </div>
     </section>
-    <section class="help">
+    <section id="help" class="help">
         <div class="helpContent">
             <h3 class="helpTitle">
                 How you can help our shelter
@@ -174,8 +189,50 @@
             </ul>
         </div>
     </section>
-    <section class="inAddition"></section>
-    <footer class="footer"></footer>
+    <section class="inAddition">
+        <div class="inAdditionContent">
+            <img class="inAdditionImage" src="./image/donation-dog.svg" alt="dog">
+            <div class="inAdditionWrapper">
+                <h3 class="inAdditionTitle">You can also make a donation</h3>
+                <p class="inAdditionSubtitle">Name of the bank / Type of bank account</p>
+                <a class="inAdditionLink" href="#">
+                    <img class="inAdditionIcon" src="./image/credit-card.svg" alt="8380 2880 8028 8791 7435">
+                    <span class="inAdditionSpan">8380 2880 8028 8791 7435</span>
+                </a>
+                <p class="inAdditionInformation">Legal information and lorem ipsum dolor sit amet,
+                    consectetur adipiscing elit. Maecenas a ipsum at libero sagittis
+                    dignissim sed ac diam. Praesent ultrices maximus tortor et vulputate.
+                    Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
+            </div>
+        </div>
+    </section>
+    <footer id="footer" class="footer">
+        <div class="footerContent">
+            <div class="footerContacts">
+                <h3 class="footerTitle">For questions and suggestions</h3>
+                <a href = "mailto: email@shelter.com" class="footerSubtitle email">
+                    <img src="../image/icon-email.svg" alt="email" class="footerIcon">
+                    <span class="footerInfo">email@shelter.com</span>
+                </a>
+                <a href="tel:+136745677554" class="footerSubtitle phone">
+                    <img src="../image/phone.svg" alt="phone" class="footerIcon">
+                    <span class="footerInfo">+13 674 567 75 54</span>
+                </a>
+            </div>
+            <div class="footerAdress">
+                <h3 class="footerTitle">We are waiting for your visit</h3>
+                <a href="https://goo.gl/maps/bcG7oSS9eWHa2TAKA" target="_blank" class="footerSubtitle boston">
+                    <img src="../image/pin.svg" alt="pin" class="footerIcon">
+                    <span class="footerInfo">1 Central Street, Boston (entrance from the store)</span>
+                </a>
+                <a href="https://goo.gl/maps/N9DivadmzmrwjfUs8" target="_blank" class="footerSubtitle london">
+                    <img src="../image/pin.svg" alt="pin" class="footerIcon">
+                    <span class="footerInfo">18 South Park, London</span>
+                </a>
+            </div>
+            <img src="../image/footer-puppy.svg" alt="Puppy" class="footerLogo">
+        </div>
+    </footer>
 </body>
 
 </html>

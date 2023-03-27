@@ -8,4 +8,9 @@
     right: 0%;
     top: 50%;
     cursor: pointer;
+    transition: all .7s ease;
+}
+
+.ourFriendsRight:hover {
+    background-color: #F1CDB3;
 }

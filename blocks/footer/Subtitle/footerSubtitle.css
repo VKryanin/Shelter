@@ -1,0 +1,21 @@
+.footerSubtitle {
+    font-size: 20px;
+    line-height: 23px;
+    color: #f1cdb3;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    margin-top: 40px;
+}
+
+.email {
+    width: 251px;
+}
+
+.phone {
+    width: 239px;
+}
+
+.boston, .london{
+    width: 302px;
+}

@@ -1,0 +1,23 @@
+.petsItem {
+    width: 270px;
+    height: 435px;
+    background: #FAFAFA;
+    border-radius: 9px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    margin: 30px 40px 0 0;
+    cursor: pointer;
+}
+
+.petsItem:nth-child(4n+4) {
+    margin-right: 0px;
+}
+
+.petsItem:hover img{
+    transform: scale(1.2);
+}
+
+.petsItem:hover .ourFriendsLearnMore{
+    background-color: #f1cdb3;
+}

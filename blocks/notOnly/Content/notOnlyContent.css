@@ -1,6 +1,7 @@
 .notOnlyContent {
-    margin: 253px 0 243px;
+    margin: 343px 0 243px;
     width: 460px;
+    height: 322px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
