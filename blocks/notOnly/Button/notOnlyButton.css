@@ -6,20 +6,18 @@
     border: none;
     cursor: pointer;
     transition: all .7s ease;
-}
-
-.notOnlyButton a {
     color: #292929;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 17px;
     text-decoration: none;
     transition: all .7s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
 
 .notOnlyButton:hover {
     border: 1px solid #513D2F;
-}
-
-.notOnlyButton:hover a{
     font-size: 18px;
 }
