@@ -11,3 +11,14 @@
 .headerItem:hover, .headerItemWhite:hover  {
     border-bottom:  1px solid #F1CDB3;
 }
+
+
+.add {
+    border-bottom:  1px solid #F1CDB3;
+    
+}
+
+.add a {
+    cursor: default;
+    color: #FAFAFA;
+}
