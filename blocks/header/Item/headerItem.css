@@ -13,7 +13,7 @@
 }
 
 
-.add {
+.add, .addBlack {
     border-bottom:  1px solid #F1CDB3;
     
 }
@@ -21,4 +21,9 @@
 .add a {
     cursor: default;
     color: #FAFAFA;
+}
+
+.addBlack a {
+    cursor: default;
+    color: #292929;
 }
