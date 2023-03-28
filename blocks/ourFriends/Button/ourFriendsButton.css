@@ -7,9 +7,6 @@
     margin: 60px auto 0;
     transition: all .7s ease;
     cursor: pointer;
-}
-
-.ourFriendsButton a {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: 400;
     font-size: 17px;
@@ -18,12 +15,12 @@
     color: #292929;
     text-decoration: none;
     transition: all .7s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .ourFriendsButton:hover {
     border: 1px solid #513D2F;
-}
-
-.ourFriendsButton:hover a{
     font-size: 18px;
 }
