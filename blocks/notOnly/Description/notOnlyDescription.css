@@ -5,5 +5,12 @@
     font-size: 15px;
     color: #CDCDCD;
     margin: 42px 0;
-    width: 460px;
+    /* width: 460px; */
+}
+
+@media screen and (max-width:320px) {
+    .notOnlyDescription {
+        max-width: 300px;
+        margin: 0 auto;
+    }
 }

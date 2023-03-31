@@ -1,3 +1,17 @@
 .footerLogo {
     object-fit: contain;
 }
+
+@media screen and (max-width:768px) {
+    .footerLogo {
+        margin: 69px auto 0;
+    }
+}
+
+@media screen and (max-width:320px) {
+    .footerLogo {
+        width: 260px;
+        height: 269px;
+        margin: 45px auto 0;
+    }
+}

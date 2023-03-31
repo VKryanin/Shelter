@@ -7,3 +7,17 @@
     width: 400px;
     text-align: center;
 }
+
+@media screen and (max-width:768px) {
+    .petsTitle {
+        margin: 0 auto
+    }
+}
+
+@media screen and (max-width:320px) {
+    .petsTitle {
+        width: 300px;
+        font-size: 25px;
+        line-height: 32px;
+    }
+}

@@ -1,8 +1,29 @@
 .notOnly {
+    width: 100%;
+    max-width: 1280px;
+    box-sizing: border-box;
     position: relative;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     padding: 0px 40px;
     box-sizing: border-box;
+    background: url(../../image/background.svg), radial-gradient(110.67% 538.64% at 5.73% 50%, #513D2F 0%, #1A1A1C 100%), #211F20;
+    background-repeat: no-repeat;
+    background-size: cover ;
+}
+
+@media screen and (max-width:768px) {
+    .notOnly {
+        max-width: 768px;
+        padding: 0 30px;
+        /* justify-content: flex-start; */
+    }
+}
+@media screen and (max-width:320px) {
+    .notOnly {
+        max-width: 320px;
+        padding: 0px 20px;
+        /* justify-content: flex-start; */
+    }
 }

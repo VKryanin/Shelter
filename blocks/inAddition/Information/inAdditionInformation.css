@@ -6,3 +6,19 @@
     color: #B2B2B2;
     font-style: italic;
 }
+
+@media screen and (max-width:768px) {
+    .inAdditionInformation {
+        margin: 20px 0 0;
+    }
+}
+
+@media screen and (max-width:320px) {
+    .inAdditionInformation {
+        font-size: 12px;
+        line-height: 18px;
+        letter-spacing: normal;
+        text-align: justify;
+        margin: 20px 10px 0;
+    }
+}

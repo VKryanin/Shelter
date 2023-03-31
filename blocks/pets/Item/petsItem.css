@@ -14,10 +14,30 @@
     margin-right: 0px;
 }
 
-.petsItem:hover img{
+.petsItem:hover img {
     transform: scale(1.2);
 }
 
-.petsItem:hover .ourFriendsLearnMore{
+.petsItem:hover .ourFriendsLearnMore {
     background-color: #f1cdb3;
+}
+
+@media screen and (max-width:768px) {
+    .petsItem:nth-child(2n) {
+        margin-right: 0px;
+    }
+}
+
+@media screen and (max-width:320px) {
+    .petsItem {
+        margin: 30px auto 0;
+    }
+
+    .petsItem:first-child {
+        margin: 42px auto 0;
+    }
+
+    .petsItem:nth-child(2n) {
+        margin: 30px auto 0;
+    }
 }

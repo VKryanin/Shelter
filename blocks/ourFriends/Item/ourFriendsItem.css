@@ -18,3 +18,9 @@
 .ourFriendsItem:hover .ourFriendsLearnMore{
     background-color: #f1cdb3;
 }
+
+@media screen and (max-width:768px) {
+    .ourFriendsItem {
+        margin-right: 40px;
+    }
+}

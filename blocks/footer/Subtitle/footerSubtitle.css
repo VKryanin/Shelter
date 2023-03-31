@@ -9,6 +9,21 @@
     transition: all .5s ease;
 }
 
+@media screen and (max-width:768px) {
+    .footerSubtitle {
+        margin-top: 43px;
+    }
+}
+
+@media screen and (max-width:320px) {
+    .footerSubtitle {
+        margin: 40px auto 0;
+    }
+    .phone {
+        margin-top: 44px;
+    }
+}
+
 .email {
     width: 251px;
 }
@@ -21,11 +36,6 @@
     width: 302px;
 }
 
-.footerSubtitle:hover {
-    opacity: .5;
-}
-
 .footerSubtitle:hover .footerInfo{
-    color: #ee6605;
-    
+    color: #FFFFFF;
 }

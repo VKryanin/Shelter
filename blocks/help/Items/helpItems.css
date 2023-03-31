@@ -7,3 +7,19 @@
     justify-content: center;
     flex-wrap: wrap;
 }
+
+@media screen and (max-width:768px) {
+    .helpItems {
+        max-width: 630px;
+        margin: 60px auto 0;
+        justify-content: space-between;
+    }
+}
+
+@media screen and (max-width:320px) {
+    .helpItems {
+        max-width: 290px;
+        margin: 42px auto 0;
+        justify-content: space-between;
+    }
+}

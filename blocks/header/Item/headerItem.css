@@ -1,29 +1,37 @@
 .headerItem {
     border-bottom:  1px solid radial-gradient(100% 215.42% at 0% 0%, #5B483A 0%, #262425 100%);
     transition: border-bottom .7s ease;
+    margin: 16px 35px 20px 0;
 }
 
-.headerItemWhite  {
-    border-bottom:  1px solid #fff;
-    transition: border-bottom .7s ease;
+.headerItem:last-of-type {
+    margin-right: 0;
 }
 
 .headerItem:hover, .headerItemWhite:hover  {
     border-bottom:  1px solid #F1CDB3;
 }
 
+.addBlack a {
+    cursor: default;
+    color: #292929;
+}
+
+.headerItemWhite  {
+    border-bottom:  1px solid #fff;
+    transition: border-bottom .7s ease;
+    margin: 16px 35px 20px 0;
+}
+
+.headerItemWhite:last-of-type {
+    margin-right: 0;
+}
 
 .add, .addBlack {
     border-bottom:  1px solid #F1CDB3;
-    
 }
 
 .add a {
     cursor: default;
     color: #FAFAFA;
-}
-
-.addBlack a {
-    cursor: default;
-    color: #292929;
 }

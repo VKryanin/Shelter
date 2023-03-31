@@ -7,6 +7,20 @@
     color: #545454;
     letter-spacing: 0.06em;
     text-align: center;
-    width: 400px;
+    max-width: 400px;
     margin: 0 auto;
+}
+
+@media screen and (max-width:768px) {
+    .ourFriendsTitle {
+        text-align: center;
+        /* width: 400px; */
+    }
+}
+
+@media screen and (max-width:320px) {
+    .ourFriendsTitle {
+        font-size: 25px;
+        line-height: 32px;
+    }
 }

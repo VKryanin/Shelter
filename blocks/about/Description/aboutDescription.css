@@ -8,3 +8,22 @@
     margin: 25px 0 0;
 }
 
+@media screen and (max-width:768px) {
+    .aboutDescription {
+        /* width: 430px; */
+        letter-spacing: normal;
+    }
+}
+
+@media screen and (max-width:320px) {
+    .aboutDescription {
+        /* width: 430px; */
+        letter-spacing: normal;
+        text-align: justify;
+        margin-top: 22px;
+    }
+
+    .aboutDescription:first-of-type {
+        margin-top: 25px;
+    }
+}

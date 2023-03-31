@@ -6,3 +6,16 @@
     flex-wrap: wrap;
     margin: 0;
 }
+
+@media screen and (max-width:768px) {
+    .petsContainer {
+        width: 580px;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width:320px) {
+    .petsContainer {
+        width: 300px;
+    }
+}

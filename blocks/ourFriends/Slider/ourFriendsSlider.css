@@ -1,8 +1,22 @@
 .ourFriendsSlider {
-    width: 1200px;
-    padding: 0 105px;
-    margin-top: 60px;
+    max-width: 1043px;
+    padding-left: 53px;
     position: relative;
     overflow: hidden;
     box-sizing: border-box;
+    display: flex;
+}
+
+@media screen and (max-width:768px) {
+    .ourFriendsSlider {
+        max-width: 580px;
+        padding: 0;
+    }
+}
+
+@media screen and (max-width:320px) {
+    .ourFriendsSlider {
+        max-width: 270px;
+        padding: 0;
+    }
 }

@@ -1,5 +1,19 @@
 .aboutContent {
     display: flex;
     justify-content: space-around;
-    width: 1200px;
+    max-width: 1200px;
+}
+
+@media screen and (max-width:768px) {
+    .aboutContent {
+        max-width: 437px;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:320px) {
+    .aboutContent {
+        max-width: 300px;
+        flex-direction: column;
+    }
 }

@@ -1,0 +1,20 @@
+.ourFriendsWrapper {
+    display: flex;
+    max-width: 1200px;
+    align-items: center;
+    margin: 60px auto 0;
+}
+
+@media screen and (max-width:768px) {
+    .ourFriendsWrapper {
+        max-width: 708px;
+        margin: 60px auto 0;
+    }
+}
+
+@media screen and (max-width:320px) {
+    .ourFriendsWrapper {
+        max-width: 270px;
+        flex-wrap: wrap;
+    }
+}

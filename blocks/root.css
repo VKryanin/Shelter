@@ -1,5 +1,5 @@
 html {
-    scroll-behavior: smooth;
+    scroll-behavior:smooth ;
 }
 
 .root {
@@ -17,6 +17,7 @@ html {
     color: #545454;
 }
 
+
 .rootWhite {
     max-width: 1280px;
     width: 1280px;
@@ -30,4 +31,16 @@ html {
     font-style: normal;
     letter-spacing: 0.06em;
     color: #545454;
+}
+
+@media screen and (max-width:768px) {
+    .root,  .rootWhite{
+        max-width: 768px;
+    }
+}
+
+@media screen and (max-width:320px) {
+    .root,  .rootWhite{
+        max-width: 320px;
+    }
 }

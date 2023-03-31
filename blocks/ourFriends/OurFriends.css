@@ -1,0 +1,17 @@
+.ourFriends {
+    width: 100%;
+    background: #F6F6F6;
+}
+.ourFrieds320 {
+    display: none;
+    box-sizing: border-box;
+    width: 260px;
+    margin: 20px auto 0;
+    justify-content: space-around;
+}
+
+@media screen and (max-width:320px) {
+    .ourFrieds320 {
+        display: flex;
+    }
+}

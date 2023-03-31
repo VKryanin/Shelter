@@ -5,3 +5,23 @@
     left: calc(50% - 698px/2 + 251px);
     bottom: 0px;
 }
+
+@media screen and (max-width:768px) {
+    .notOnlyImage {
+        position: relative;
+        left: auto;
+        width: 569px;
+        height: 593px;
+        margin: 0 30px 0 169px;
+    }
+}
+
+@media screen and (max-width:320px) {
+    .notOnlyImage {
+        position: relative;
+        left: auto;
+        width: 260px;
+        height: 272px;
+        margin: 105px auto 0;
+    }
+}

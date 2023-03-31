@@ -5,6 +5,15 @@
     font-weight: 400;
     color: #545454;
     letter-spacing: 0.06em;
-    width: 370px;
+    /* width: 370px; */
     margin: 0;
+}
+
+@media screen and (max-width:320px) {
+    .aboutTitle {
+        font-size: 25px;
+        line-height: 32px;
+        text-align: center;
+        margin: 0 auto;
+    }
 }

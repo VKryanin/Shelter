@@ -1,4 +1,18 @@
 .helpContent {
-    width: 1200px;
+    max-width: 1200px;
     box-sizing: border-box;
+}
+
+@media screen and (max-width:768px) {
+    .helpContent {
+        max-width: 630px;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width:320px) {
+    .helpContent {
+        max-width: 290px;
+        margin: 0 auto;
+    }
 }

@@ -4,10 +4,10 @@
     margin: 60px auto 0;
     display: flex;
     justify-content: space-between;
-    
 }
 
 .pagination {
+    box-sizing: border-box;
     width: 52px;
     height: 52px;
     border-radius: 50%;
@@ -18,5 +18,18 @@
 
 .petsDNext, .petsNext, .petsPrev, .petsDPrev {
     cursor: pointer;
+}
+
+@media screen and (max-width:768px) {
+    .petsNavigation {
+        margin: 40px auto 0
+    }
+}
+
+@media screen and (max-width:320px) {
+    .petsNavigation {
+        margin: 42px auto 0;
+        width: 300px;
+    }
 }
 

@@ -1,5 +1,15 @@
 .aboutWrapper {
     width: 430px;
-    height: 380px;
+    min-height: 380px;
     padding: 14px 0;
+}
+
+@media screen and (max-width:320px) {
+    .aboutWrapper {
+        box-sizing: border-box;
+        max-width: 300px;
+
+        padding: 0 15px;
+        flex-direction: column;
+    }
 }

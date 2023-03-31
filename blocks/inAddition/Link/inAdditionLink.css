@@ -16,3 +16,9 @@
 .inAdditionLink:hover {
     background-color: #fff;
 }
+
+@media screen and (max-width:320px) {
+    .inAdditionLink {
+        max-width: 281px
+    }
+}

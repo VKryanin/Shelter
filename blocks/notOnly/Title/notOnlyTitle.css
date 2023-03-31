@@ -1,5 +1,5 @@
 .notOnlyTitle {
-    width: 310px;
+    /* width: 310px; */
     margin: 0;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 44px;
@@ -9,4 +9,20 @@
     font-weight: 400;
     color: #fff;
     letter-spacing: normal;
+}
+
+@media screen and (max-width:768px) {
+    .notOnlyTitle {
+        
+    }
+}
+
+@media screen and (max-width:320px) {
+    .notOnlyTitle {
+        /* margin: 0 auto; */
+        font-size: 25px;
+        line-height: 32px;
+        text-align: center;
+        letter-spacing: 0.06em;
+    }
 }

@@ -2,3 +2,18 @@
     font-size: 15px;
     line-height: 17px
 }
+
+@media screen and (max-width:768px) {
+    .inAdditionSubtitle {
+        margin: 20px 0;
+    }
+}
+
+@media screen and (max-width:320px) {
+    .inAdditionSubtitle {
+        font-size: 15px;
+        line-height: 24px;
+        letter-spacing:normal;
+        margin: 20px auto;
+    }
+}

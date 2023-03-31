@@ -5,6 +5,14 @@
     line-height: 45px;
     letter-spacing: 0.06em;
     color: #545454;
-    width: 300px;
-    margin: 0;
+    /* width: 300px; */
+    margin: 0 auto;
+}
+
+@media screen and (max-width:320px) {
+    .inAdditionTitle {
+        font-size: 25px;
+        line-height: 32px;
+        text-align: center;
+    }
 }

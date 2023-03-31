@@ -4,3 +4,18 @@
     padding: 80px 40px 100px;
     box-sizing: border-box;
 }
+
+@media screen and (max-width:768px) {
+    .about {
+        margin: 0;
+        padding: 80px 169px 100px;
+    }
+}
+
+@media screen and (max-width:320px) {
+    .about {
+        display: flex;
+        flex-direction: column;
+        padding: 42px 10px 0;
+    }
+}

@@ -1,8 +1,26 @@
 .notOnlyContent {
     margin: 343px 0 243px;
-    width: 460px;
+    max-width: 460px;
     height: 322px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+
+@media screen and (max-width:768px) {
+    .notOnlyContent {
+        margin: 150px auto 100px;
+    }
+}
+
+
+@media screen and (max-width:320px) {
+    .notOnlyContent {
+        box-sizing: border-box;
+        width: 100%;
+        margin: 150px auto 0;
+        /* align-items: center; */
+        font-size: 25px;
+        line-height: 32px;
+    }
 }

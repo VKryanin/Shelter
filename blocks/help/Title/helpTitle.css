@@ -6,7 +6,14 @@
     line-height: 45px;
     letter-spacing: 0.06em;
     color: #545454;
-    width: 320px;
+    max-width: 320px;
     margin: 0 auto;
     text-align: center;
+}
+
+@media screen and (max-width:320px) {
+    .helpTitle {
+        font-size: 25px;
+        line-height: 32px;
+    }
 }

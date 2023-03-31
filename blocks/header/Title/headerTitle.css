@@ -1,10 +1,18 @@
 .headerTitle {
-    margin: 0 0 10px;
+    margin: 0;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #F1CDB3;
     font-size: 32px;
     font-weight: 400;
+    line-height: 35px;
     letter-spacing: 0.06em;
+}
+
+@media screen and (max-width:320px) {
+    .headerTitle{
+        max-width: 184px;
+        line-height: 35px;
+    }
 }
 
 .headerTitleWhite {
@@ -14,4 +22,10 @@
     font-size: 32px;
     font-weight: 400;
     letter-spacing: 0.06em;
+}
+
+@media screen and (max-width:320px) {
+    .headerTitleWhite{
+        max-width: 184px;
+    }
 }

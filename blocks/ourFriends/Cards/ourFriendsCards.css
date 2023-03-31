@@ -2,4 +2,12 @@
     width: 2700px;
     display: flex;
     box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+@media screen and (max-width:768px) {
+    .ourFriendsCards {
+        
+    }
 }

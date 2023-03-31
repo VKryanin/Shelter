@@ -1,0 +1,12 @@
+.headerBurger {
+    position: absolute;
+    visibility: hidden;
+    cursor: pointer;
+}
+
+@media screen and (max-width:320px) {
+    .headerBurger {
+        position: relative;
+        visibility:visible;
+    }
+}

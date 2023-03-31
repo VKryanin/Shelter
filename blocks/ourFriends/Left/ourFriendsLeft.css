@@ -1,14 +1,25 @@
 .ourFriendsLeft {
+    box-sizing: border-box;
     width: 52px;
     height: 52px;
     border-radius: 50%;
     border: 2px solid #F1CDB3;
-    position: absolute;
-    transform: translate(0%, -50%);
-    left: 0;
-    top: 50%;
+    position: relative;
     cursor: pointer;
     transition: all .7s ease;
+}
+
+@media screen and (max-width:768px) {
+    .ourFriendsLeft {
+        margin-right: 12px;
+    }
+}
+
+@media screen and (max-width:320px) {
+    .ourFriendsLeft {
+        order: 2;
+        margin: 20px 80px 0 43px;
+    }
 }
 
 .ourFriendsLeft:hover {

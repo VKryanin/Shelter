@@ -9,6 +9,7 @@
 @import url(./blocks/header/List/headerList.css);
 @import url(./blocks/header/Item/headerItem.css);
 @import url(./blocks/header/Link/headerLink.css);
+@import url(./blocks/header/burger/headerBurger.css);
 
 @import url(./blocks/notOnly/Content/notOnlyContent.css);
 @import url(./blocks/notOnly/Title/notOnlyTitle.css);
@@ -23,8 +24,10 @@
 @import url(./blocks/about/Title/aboutTitle.css);
 @import url(./blocks/about/Description/aboutDescription.css);
 
-@import url(./blocks/ourFriends/ourFriendsContent.css);
+@import url(./blocks/ourFriends/OurFriends.css);
+@import url(./blocks/ourFriends/Content/ourFriendsContent.css);
 @import url(./blocks/ourFriends/Title/ourFriendsTitle.css);
+@import url(./blocks/ourFriends/Wrapper/ourFriendsWrapper.css);
 @import url(./blocks/ourFriends/Slider/ourFriendsSlider.css);
 @import url(./blocks/ourFriends/Left/ourFriendsLeft.css);
 @import url(./blocks/ourFriends/Left/ourFriendsLeftImage.css);
