@@ -1,13 +1,15 @@
 .aboutContent {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     max-width: 1200px;
+    padding: 0 175px;
 }
 
 @media screen and (max-width:768px) {
     .aboutContent {
         max-width: 437px;
         flex-direction: column;
+        padding: 0;
     }
 }
 
