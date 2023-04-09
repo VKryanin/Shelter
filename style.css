@@ -10,6 +10,7 @@
 @import url(./blocks/header/Item/headerItem.css);
 @import url(./blocks/header/Link/headerLink.css);
 @import url(./blocks/header/burger/headerBurger.css);
+@import url(./blocks/header/Menu/burgerMenu.css);
 
 @import url(./blocks/notOnly/Content/notOnlyContent.css);
 @import url(./blocks/notOnly/Title/notOnlyTitle.css);
@@ -37,7 +38,6 @@
 @import url(./blocks/ourFriends/Description/ourFriendsDescription.css);
 @import url(./blocks/ourFriends/Name/ourFriendsName.css);
 @import url(./blocks/ourFriends/LearnMore/ourFriendsLearnMore.css);
-@import url(./blocks/ourFriends/Right/ourFriendsRightWrapper.css);
 @import url(./blocks/ourFriends/Right/ourFriendsRight.css);
 @import url(./blocks/ourFriends/Right/ourFriendsRightImage.css);
 @import url(./blocks/ourFriends/Button/ourFriendsButton.css);
@@ -76,3 +76,5 @@
 @import url(./blocks/pets/Pagination/petsPagination.css);
 @import url(./blocks/pets/Count/paginationCount.css);
 @import url(./blocks/pets/Arrow/paginationArrow.css);
+
+@import url(./blocks/popup/popup.css);

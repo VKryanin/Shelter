@@ -1,6 +1,7 @@
 .ourFriends {
     width: 100%;
     background: #F6F6F6;
+    position: relative;
 }
 .ourFrieds320 {
     display: none;

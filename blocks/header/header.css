@@ -1,7 +1,7 @@
 .header {
     box-sizing: border-box;
-    width: 100%;
     max-width: 1200px;
+    width: calc(100% - 80px);
     margin: 30px auto 0;
     position: absolute;
     display: flex;
@@ -9,9 +9,20 @@
 }
 
 @media screen and (max-width:768px) {
+
     .header,
     .headerWhite {
+        width: 100%;
         max-width: 708px;
+    }
+}
+
+@media screen and (max-width:767px) {
+
+    .header,
+    .headerWhite {
+        width: 100%;
+        /* max-width: 708px; */
     }
 }
 
@@ -25,7 +36,7 @@
 .headerWhite {
     box-sizing: border-box;
     width: 100%;
-    max-width: 1280px;
+    /* max-width: 1280px; */
     background-color: #fff;
     padding: 30px 40px;
     position: relative;
@@ -36,17 +47,17 @@
 
 @media screen and (max-width:768px) {
     .headerWhite {
-        max-width: 768px;
+        /* max-width: 768px; */
         padding: 30px;
+
     }
 }
 
 @media screen and (max-width:320px) {
-    .headerWhite{
+    .headerWhite {
         position: relative;
         width: 100%;
         padding: 30px 20px;
     }
-    
-}
 
+}

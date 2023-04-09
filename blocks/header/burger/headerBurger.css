@@ -1,12 +1,38 @@
 .headerBurger {
-    position: absolute;
     visibility: hidden;
+    display: none;
     cursor: pointer;
+    z-index: 5;
+    transition: transform .5s ease;
+}
+
+.headerBurger:hover {
+    transform: rotate(90deg);
+}
+
+.rotate {
+    transform: rotate(90deg);
+}
+
+.burgerSolid {
+    border-bottom: 2px solid #F1CDB3;
+    height: 2px;
+    margin-top: 10px;
+}
+
+.burgerSolid:first-of-type {
+    margin-top: 0px;
 }
 
 @media screen and (max-width:767px) {
     .headerBurger {
+        box-sizing: border-box;
         position: relative;
-        visibility:visible;
+        visibility: visible;
+        display: flex;
+        flex-direction: column;
+        width: 30px;
+        height: 22px;
     }
+
 }

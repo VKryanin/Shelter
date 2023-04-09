@@ -1,6 +1,7 @@
 .ourFriendsSlider {
-    max-width: 1043px;
-    padding-left: 53px;
+    width: 990px;
+    height: 435px;
+    margin-left: 53px;
     position: relative;
     overflow: hidden;
     box-sizing: border-box;

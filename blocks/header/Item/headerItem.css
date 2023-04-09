@@ -8,7 +8,7 @@
     margin-right: 0;
 }
 
-.headerItem:hover, .headerItemWhite:hover  {
+.headerItem:hover, .headerItemWhite:hover, .burgerItem:hover  {
     border-bottom:  1px solid #F1CDB3;
 }
 
