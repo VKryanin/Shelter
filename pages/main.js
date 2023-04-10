@@ -26,29 +26,34 @@ for (let index = 0; index < selectors.ourFriendsItem.length; index++) {
 let offSet = ourFriendsCards.offsetLeft;
 
 function moveLeft() {
-    // console.log(ourFriendsCards.offsetLeft);
-    if (ourFriendsCards.offsetLeft >= -1679) {
+    if (ourFriendsCards.offsetLeft > -1350) {
         offSet -= 336;
+        ourFriendsLeft.classList.remove('disable')
         return ourFriendsCards.style.left = offSet + 'px'
     } else {
         ourFriendsLeft.disabled = true;
+        ourFriendsLeft.classList.add('disable')
     }
 };
 
 function moveRight() {
-    console.log(ourFriendsCards.offsetLeft);
-    if (ourFriendsCards.offsetLeft == 0) {
+    if (ourFriendsCards.offsetLeft > -1) {
         ourFriendsRight.disabled = true;
+        ourFriendsRight.classList.add('disable')
     } else {
         offSet += 336;
+        ourFriendsRight.classList.remove('disable')
         return ourFriendsCards.style.left = offSet + 'px'
     }
-    
 };
 
-console.log(ourFriendsCards.offsetLeft);
-
-ourFriendsLeft.addEventListener('click', () => moveLeft());
-ourFriendsRight.addEventListener('click', () => moveRight());
+ourFriendsLeft.addEventListener('click', () => {
+    moveLeft();
+    ourFriendsRight.classList.remove('disable');
+});
+ourFriendsRight.addEventListener('click', () => {
+    ourFriendsLeft.classList.remove('disable');
+    moveRight();
+});
 
 

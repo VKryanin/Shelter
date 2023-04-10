@@ -9,6 +9,19 @@
     transition: all .7s ease;
 }
 
+.ourFriendsLeft:hover {
+    background-color: #F1CDB3;
+}
+
+.disable {
+    border: 2px solid #cdcdcd;
+    cursor: default;
+}
+
+.disable:hover {
+    background-color: #F6F6F6; 
+}
+
 @media screen and (max-width:768px) {
     .ourFriendsLeft {
         margin-right: 12px;
@@ -22,6 +35,3 @@
     }
 }
 
-.ourFriendsLeft:hover {
-    background-color: #F1CDB3;
-}
