@@ -4,6 +4,7 @@ import { Popup } from './popup.js';
 const ourFriendsLeft = document.querySelector('.ourFriendsLeft');
 const ourFriendsRight = document.querySelector('.ourFriendsRight');
 const ourFriendsCards = document.querySelector('.ourFriendsCards');
+let offSet = ourFriendsCards.offsetLeft;
 
 function ShowElement(element) {
     element.classList.toggle('Show')
@@ -23,7 +24,6 @@ for (let index = 0; index < selectors.ourFriendsItem.length; index++) {
         document.querySelector('.root').classList.add('blocked')
     })
 }
-let offSet = ourFriendsCards.offsetLeft;
 
 function moveLeft() {
     if (ourFriendsCards.offsetLeft > -1350) {

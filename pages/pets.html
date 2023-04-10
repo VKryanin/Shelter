@@ -131,7 +131,7 @@
         <div class="footerContent">
             <div class="footerContacts">
                 <h3 class="footerTitle">For questions and suggestions</h3>
-                <a href = "mailto:email@shelter.com" class="footerSubtitle email">
+                <a href="mailto:email@shelter.com" class="footerSubtitle email">
                     <img src="../image/icon-email.svg" alt="email" class="footerIcon">
                     <span class="footerInfo">email@shelter.com</span>
                 </a>
@@ -154,6 +154,37 @@
             <img src="../image/footer-puppy.svg" alt="Puppy" class="footerLogo">
         </div>
     </footer>
+    <template id="templateCard">
+        <div class="popup">
+            <div class="popupContainer">
+                <div class="popupClose">
+                    <img src="../image/close.svg" alt="close popup">
+                </div>
+                <div class="popupWrapper">
+                    <h4 class="popupTitle"></h4>
+                    <p class="popupSubtitle"></p>
+                    <p class="popupDescription"></p>
+                    <ul class="popupList">
+                        <li class="popupItem">
+                            <b>Age:</b> <span class="age"></span>
+                        </li>
+                        <li class="popupItem">
+                            <b>Inoculations:</b> <span class="inoculations"></span>
+                        </li>
+                        <li class="popupItem">
+                            <b>Diseases:</b>  <span class="diseases"></span>
+                        </li>
+                        <li class="popupItem">
+                            <b>Parasites:</b> <span class="parasites"></span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </template>
+    <script type="module" src="./pets.js"></script>
+    <script type="module" src="./utils.js"></script>
+    <script type="module" src="./popupPets.js"></script>
 </body>
 
 </html>
